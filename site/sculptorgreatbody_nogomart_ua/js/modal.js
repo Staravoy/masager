@@ -1,4 +1,3 @@
-// Додайте це до вашого скрипту
 const modal = document.getElementById('modal');
 const modalText = document.getElementById('modal-text');
 const closeButton = document.getElementsByClassName('close')[0];
@@ -6,9 +5,15 @@ const closeButton = document.getElementsByClassName('close')[0];
 document.getElementById('order_form').addEventListener('submit', function(e){
     e.preventDefault();
 
-    let message = `<b>Заявка з сайту: </b>\n`;
-    message += `<b>Замовник: </b>${ this.name.value }\n`;
-    message += `<b>Номер телефону: </b>${this.phone.value}`;
+    const TOKEN = "6856390087:AAFAnoOfqIoCZTIL4BS_j8tn9fuDUmXT-4k";
+    const CHAT_ID = "-1002002230194";
+    const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+    let userName = this.name.value;  // Зберегти ім'я перед очищенням полів
+
+    let message = `<b>Заявка з сайту:</b>\n`;
+    message += `<b>Замовник:</b> ${userName}\n`;
+    message += `<b>Номер телефону:</b> ${this.phone.value}`;
 
     axios.post(URI_API, {
         chat_id: CHAT_ID,
@@ -18,7 +23,7 @@ document.getElementById('order_form').addEventListener('submit', function(e){
     .then((res) => {
         this.name.value = "";
         this.phone.value = "";
-        showModal(this.name.value);
+        showModal(userName);  // Передати ім'я в showModal
     })
     .catch((err) => {
         console.warn(err);
@@ -26,7 +31,7 @@ document.getElementById('order_form').addEventListener('submit', function(e){
 });
 
 function showModal(userName) {
-    modalText.innerHTML = `Дякуємо за замовлення! Наші оператори зв'яжуться з Вами.`;
+    modalText.innerHTML = `Дякуємо за замовлення, ${userName}! Наші оператори зв'яжуться з Вами.`;
     modal.style.display = 'block';
 }
 
