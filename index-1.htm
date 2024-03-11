@@ -1,0 +1,516 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <!-- Removed by WebCopy --><!--<base href="/site/sculptorgreatbody_nogomart_ua/">--><!-- Removed by WebCopy -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=480">
+    <title>
+        Інтернет-магазин     </title>
+    <meta name="description" content="Великий асортимент">
+    <meta name="keywords" content="Інтернет-магазин">
+    <link rel="shortcut icon" href="site/sculptorgreatbody_nogomart_ua/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="site/sculptorgreatbody_nogomart_ua/land/css/reset.css">
+    <link rel="stylesheet" href="site/sculptorgreatbody_nogomart_ua/land/fonts/Akrobat.css">
+    <link rel="stylesheet" href="site/sculptorgreatbody_nogomart_ua/css/styles.css">
+    <link rel="stylesheet" href="site/sculptorgreatbody_nogomart_ua/css/swiper-bundle.min.css">
+    <link href="css2.css?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="css2-1.css?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <meta name="csrf-param" content="_csrf">
+
+        <link rel="stylesheet" href="site/sculptorgreatbody_nogomart_ua/css/modal.css">
+<meta name="csrf-token" content="Well6ckwTqf8J1sdISAecmw8JjfW_839Vk5g6gYkxloLhha_vGV70qtILmdiZVIlWXtoZpjHp4dgYwmjYWGnbw==">
+
+<style>
+    #fast-delivery-widget {
+        position: fixed;
+        bottom: 35px;
+        left: 20px;
+        z-index: 999;
+        padding: 10px 30px 10px 70px;
+        border-radius: 5px;
+         -webkit-box-shadow: 0 0 16px 0 rgba(0,0,0,.15);
+        box-shadow: 0 0 16px 0 rgba(0,0,0,.15);
+    }
+    #fast-delivery-widget .fast-delivery-widget__close {
+        display: block;
+        width: 11px;
+        height: 11px;
+        position: absolute;
+        top:10px;
+        right: 10px;
+        cursor: pointer;
+    }
+    #fast-delivery-widget .fast-delivery-widget__close:before,
+    #fast-delivery-widget .fast-delivery-widget__close:after {
+        content:'';
+        display: block;
+        width: 1px;
+        height: 15px;
+        position: absolute;
+        top:-2px;
+    }
+    #fast-delivery-widget .fast-delivery-widget__close:before {
+        left: 5px;
+        -moz-transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    #fast-delivery-widget .fast-delivery-widget__close:after {
+        left: 5px;
+        -moz-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    #fast-delivery-widget.fast-delivery-widget_light .fast-delivery-widget__close:before,
+    #fast-delivery-widget.fast-delivery-widget_light .fast-delivery-widget__close:after {
+        background: #b5b5b5;
+    }
+    #fast-delivery-widget.fast-delivery-widget_green .fast-delivery-widget__close:before,
+    #fast-delivery-widget.fast-delivery-widget_green .fast-delivery-widget__close:after {
+        background: #fff;
+    }
+
+    #fast-delivery-widget .fast-delivery-widget__title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5em;
+        letter-spacing: .2px;
+    }
+    #fast-delivery-widget .fast-delivery-widget__info {
+        line-height: 1.5em;
+        font-size: 14px;
+    }
+
+    #fast-delivery-widget.fast-delivery-widget_light {
+        color: #333;
+        background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAFFklEQVRYhcXYaYydUxgH8N+t0dYyU0qLoqViryX2ZVS1tEVryRBrLJUYiYgPEiFEgk8IQiQm9lL70qIttaczidoaS60tsS+lWrdMtarjw3Pe3neue8edMcM/OXnvPec95/zfZzvPcwrNrfV6iH7YHielthQPYw4+w+paFmlpLFbsr+sBoYEYgyYcj01yYwdjMZ7FLLTh2x7s0S1imyYyJyYCA1P/EjyJ9XEUhuKM1N7GXMzAK+joLWL9MBJn4hRslxv7FPfiMXyCdbAtjhWq3R17pnZOIvkkHsVX+LOrjQtVbKwe+ycyTRiU+tsxPxF6BL9UWXcARieCY8o+qIinMR3zWhqL39RCbBgm4ARMFBKD74VRP5aef1QhVAnDMV6ouRFDcmPvYDZeQmtLY3FlObFdcTqOxm65iR/hfjyFd7tBZisckjb+INtLqHWc0MIBufeXC1XPwvSWxuInhebW+qtwPganl1YIQ50mpLOkRjL9sQvOThsPEyFkBm4VJrAmvduQSB6HI7FTbp0luKvQ3Fq/FBvlBubiYrxWI6EBGIspQuLrpf7VSs71O2Zialo/C15DE7mr0+8MvxSaW+t/KOuEn/C88KDn8FsXxCYJVRfS/w6h/qnYW0hwx9z7LwrDHybseK/cWPYxiwvNrfWLhUHeINR4rpKBrsZbeAgPiOBZjgPS2La5vvlpzn1YNxG4DCOqfNwbuAtb4Ar82C83+Bouxz64VBh+nQgbN+J1XIs90mYZ5glvuzCtsSxJ4VoswJVCcoN0xspEZizGtjQWW/BhNpiX2BTcnZvYIPR/kvCwLK6swONCXfMSkTwmJVI7V5DMl+k5HO9jVP6sPK+t4exEtpPEylEUgXRSIngLvhbGfbqIP9OFpLYRnnWhOIqGlK21BtdhctqYiJH9q21ey1nZIQLgS7gZxwiD3lVE9TG4IK2Vt6FFqU0Ux89N+CbN/0d0JbFKWIjrhWpPFp7bLo6cEUKtc3CWiFNXp3kFJVOoKXHoLrEMWe41Prf5r0JVE0Wo+E0ppmXk8s8+IZbHF+nZLkJLHpVItHcxtha9QSyTSj8ldZVjDVYJle+X+rpUaU8y2HJ0VPmdR0GEot2V4tmvusjJeoNYV8jWX1c4DJEktuF2/yOx74SjbCw8eBZeVkMK1dfE3sPhIgNZIPKumtDXxNaIA73b6A2v7BNUIzYSO/yXRMpRidhuaMWruAeH6hzB+xJrg26eWFahdKQ2WNSTr4i8/VSdq+6+wIpKxLJiZIE4765RcuvxIv+6Q41nXQ+xWfajTiknugyjRHXUhktEqjJOZAvjRPLYqzivraFBHP6TRTYLA+pwpyjhN0ezSPTm4jaRDE5LbZQImDXfP3SBDUU+15TayNzYMjxQh4vwYCI0XlQ0E1KbL1Q4U6j432KUcKbjcZiSKa0SBe8cPNHSWHw7C7BvpjZSFKBNaeJeqV0gVckik+2O1IYqXRGMxpa5sYXiymqOuCJYWwBUu1QZjINEbj9ZXDERlyivizDyhChkTxVS/Sl92PIkiYPSB07QuTBpxwviHqS1pbH4eSUC1Y6kn4X6nhFl/5S0ydY4IrX3RIGSeXOHCMr7pQ/aV6nMWylKsxmiiF7oHy5mqkmsEoaJUq4JByrZxx+JwCoRh/L148fCw2cIKf1evmhvXHV+KwrfO4XEjhNGvEEa75/acmE3sxOpRd3Yo0fEMhRFwfuUqBVPE1Isisu82eKG8W/S6Q7+AhQaQsvQfI6FAAAAAElFTkSuQmCC) no-repeat  15px center;
+    }
+
+    #fast-delivery-widget.fast-delivery-widget_green {
+        background: #67c30d url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAExUlEQVRYhcWYe4hXRRTHP7s+1lLX0rSyl1iKlZqR9KA3pVhtkEllapZQUQQVPdA/pCh7kGFRGASp2UusoPQPzcpealiBJiZWupmWJK6K66rrez/9MXPdu3fvPn4/3PrCcOfO3JnznXPOzD1nSlSKRCnQD7gjlp3Ah8DnwAbgcLETA5QUQawTcA0wChgJ9Mj0VwGLgAXAMuCftiZ2UiRzG3B5JAiwA5gPHA/cCJSnxqwClgDzgG+B1mtBba6UqueoU9RKG6JSfUo9T22vlqkD1InqSvVw6ts96jL1SbWP2q4FuU0S66per85Uq1MC9qpL1fvUbs1MXKYOU2fkLGiX+r46Sj2ttcR6qxPUBeqR1GRb1NlqhdqhpdVmypnqveonalWG5Cr1haiEsjxi56svqqszA39VJ6uDCyRzunqnwcxJW4l6ofqEujwjp0ZdYnCD/gmxZ9UdqY9q1YXqGLVHAWQ6qkPU19TNal2cd6Y61OCvybfl6lXqK3HxaWxXp6LuzHR8p15SAKEy9Qb147ioBIdS9X2xvyKSSsb2Uu9Xt2Y4VJPTqLpNnaOOVDu3QKwiaidBnfqewW8mqr9l5l6sPqQ+r67I9CWL2Yr1DjlNfc6GDnpI/UF9NK4uj9il6oaMgBWGo+EU9QzDLt6Yo4AEP6kPqM/E96o0sdut30WTbGz7jepU9QIb78ze6sNxEWnX2K7OUt+0scvsN/jftWqXOM/oPGITMsLK1fGGo6MmNWGtwVQj1BPMN+3aJjSzKRbVNTljJyTESpv5KdQA7wIVwC3AdGAzcBwwDlgIfAo8AvQBBsT6eKBnZq464GXgZmBWbCsFOjb3S2pKY3mln/p4XG0alTb2ofXqZ7F+0PpTfnJsW2s4YgrWWB7WA9OAK4HRwJdALXA2cBZQTQh77gGGAFPiuBKga6y3b42gQoklSGKv4SnhewimGgG8A+wlmD1BSebZJsTS2BSftcCKTF8eidpm+o7iWBBLtFJKvbmyqAMOEkx+cWxr1qStsncLsIl6GiXA28BgoFts2wMcaUtizSGZvwNhwwD8TQi53+J/JLaFsFFOJOzgBcA3wOqWBrY1sV+A64EyYA2wu7UD25pYHbCymIHHYle2CZoi1hfo/18SySKP2CBgKbAcmA1cTcMTvC1x9NBNEzsQn8bSHbibkKjOA8bQOOs+1tiXR6x7fK4h/O9eon5bDwc+AGbQyn9dkTj5aM36hHaLIdK8IhWGnKqOM8Tpql8Z0rC8UGWb2rMVoVO2lKtj1bmpEGwXhlg/nW3XqovUW9VOqQkGmp/OFUOsiyETm6r+0TCMc6f6RvLhUPV1G2c0K9THjEloE6UQYgMNGdJiG2b6B9QfDTnuEG18RdA3Dvw6Q/BPdbp6nYWbspfBHeYYEuE01kWF3GTDfLPJS5XuhqRiruEiJUG1+oUhS0/MPCZFrGtsKzX46qs2Tkz2qvPVuww3P7kcWvKFduqgKOCvjIDVhix6UnyvUi9SH1S/N8T5CfarP6tPG+4zWryYKeTirjfhSnMUcBn1R80hQlhzkHAOdUuN+Z0Q4swDFgP7WyusmKvOcmAYIaUbCXTO9O8mXHUujKQqCxVQLLEEHYBzgbEELdYAH0VC6yhAO3n4FwMIGWoKRfvWAAAAAElFTkSuQmCC) no-repeat 15px center;
+        color:#fff;
+    }    
+</style></head>
+<body>
+    <script type="application/ld+json" id="mySchema">{"@context":"https://schema.org/","@type":"Offer","sku":119,"name":"Скульптор идеального тела - Relax Active + набор насадок","category":"Товары для Здоровья","availability":"https://schema.org/InStock","price":449,"priceCurrency":"UAH"}</script>    <div class="main_wrapper">
+        <header class="active">
+            <svg class="nav-button" id="hamburger" fill="none" viewbox="0 0 52 23">
+                <path stroke="#fff" stroke-linecap="round" stroke-width="3" d="M2 1.5h48M2 21.5h48M2 11.5h48"></path>
+            </svg>
+        </header>
+        <nav id="menu" class="modal-body">
+            <div class="modal-block">
+                <ul>
+                    <li>
+                        <a href="index-1.htm#home">Головна </a><svg viewbox="0 0 16 16">
+                            <path d="M6 8l4-3.5v7L6 8z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="index-1.htm#video">Відео </a><svg viewbox="0 0 16 16">
+                            <path d="M6 8l4-3.5v7L6 8z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="index-1.htm#peculiarities">Особливості </a><svg viewbox="0 0 16 16">
+                            <path d="M6 8l4-3.5v7L6 8z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="index-1.htm#characteristic">ХАРАКТЕРИСТИКИ </a><svg viewbox="0 0 16 16">
+                            <path d="M6 8l4-3.5v7L6 8z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="index-1.htm#feedback">ВІДГУКИ </a><svg viewbox="0 0 16 16">
+                            <path d="M6 8l4-3.5v7L6 8z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <a href="index-1.htm#order_form">замовити </a><svg viewbox="0 0 16 16">
+                            <path d="M6 8l4-3.5v7L6 8z"></path>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="home" class="offer_section offer_section-top">
+            <div class="box">
+                <h1 class="box-title">
+                    <div class="text">Скульптор <span>ідеального тіла</span></div>
+                </h1>
+                <img src="site/sculptorgreatbody_nogomart_ua/images/offer.jpg" alt="Скульптор ідеального тіла">
+                <div class="sale">
+                    <p>Знижка</p>
+                    <p>-
+                        35%
+                    </p>
+                </div>
+            </div>
+            <div class="price">
+                <div class="old">
+                    <span>
+                        700                    </span>
+                    <small>
+                        грн.                    </small>
+                </div>
+                <div class="new">
+                    <span>
+                        550                    </span>
+                    <small>
+                        грн.                    </small>
+                </div>
+            </div>
+            <div class="bottom color_theme">
+                <div class="timer">
+                    <p>До кінця акції лишилося:</p>
+                    <div class="timer_container">
+                        <div class="timer_block">
+                            <div class="count hours">09</div>
+                            <div class="text">годин</div>
+                        </div>
+                        <div class="timer_block">
+                            <div class="count minutes">39</div>
+                            <div class="text">хвилин</div>
+                        </div>
+                        <div class="timer_block">
+                            <div class="count seconds">58</div>
+                            <div class="text">секунд</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="index-1.htm#order_form" class="button-m">замовити зараз</a>
+                <div class="prod_count">
+                    Купили
+                    <span>18</span>
+                    штук по акції
+                </div>
+                <br>
+            </div>
+        </div>
+        <section id="video" class="sect2" style="padding: 0 0 0 0;margin: -30px 0 0 0;">
+            <div class="video_block">
+                <div class="youtube" id="pHwEj845MBE">
+                    <img src="site/sculptorgreatbody_nogomart_ua/images/bg-preview.jpg" alt="Скульптор ідеального тіла">
+                </div>
+            </div>
+        </section>
+        <section id="peculiarities" class="sect41">
+            <h2 class="title">
+                5 НАСАДОК <br> <span>5 СПОСОБІВ ДОГЛЯДУ</span>
+            </h2>
+            <div class="block">
+                <div class="block-image">
+                    <img src="site/sculptorgreatbody_nogomart_ua/images/k1.jpg">
+                </div>
+                <div class="block-text">
+                    <p><b>Насадка 1</b><br>З 8-ма обертовими кульками. Застосовується, для зменшення обсягу талії, надання шкірі еластичності та ніжності.</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-image">
+                    <img src="site/sculptorgreatbody_nogomart_ua/images/k2.jpg">
+                </div>
+                <div class="block-text">
+                    <p><b>Насадка 2</b><br>Гладка плоска насадка – для масажу шиї, плечей та спини. Зніме втому, нервову напругу, допоможе відновити сили</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-image">
+                    <img src="site/sculptorgreatbody_nogomart_ua/images/k3.jpg">
+                </div>
+                <div class="block-text">
+                    <p><b>Насадка 3</b><br>Насадка з хвилястою поверхнею – позбавить вас від складок на тілі</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-image">
+                    <img src="site/sculptorgreatbody_nogomart_ua/images/k4.jpg">
+                </div>
+                <div class="block-text">
+                    <p><b>Насадка 4</b><br>Шліфувальна насадка – для видалення огрубілої та шорсткої шкіри на ступнях</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-image">
+                    <img src="site/sculptorgreatbody_nogomart_ua/images/k5.jpg">
+                </div>
+                <div class="block-text">
+                    <p><b>Насадка 5</b><br>Захисна насадка – убереже вас від попадання волосся до приладу</p>
+                </div>
+            </div>
+        </section>
+        <section class="sect4">
+            <h2 class="title">
+                Зроби крок до ідеального тіла
+            </h2>
+            <p>5 насадок для різних способів догляду за тілом допоможуть вам підтягнути шкіру, прибрати складки на тілі і тд.</p>
+            <img src="site/sculptorgreatbody_nogomart_ua/images/a1.jpg" alt="Скульптор ідеального тіла">
+            <p>Секрет ефективності в тому, що вісь пристрою, що обертається, зміщена щодо центру. При включенні приладу насадка здійснює більше 2500 обертів на хвилину. Це забезпечує проникні вібрації в глибокі шари шкіри.</p>
+            <p>Таким чином, ви спалюєте зайві калорії, позбавляєтеся жирових відкладень, благотворно впливаєте на тонус м'язів.</p>
+            <img src="site/sculptorgreatbody_nogomart_ua/images/a2.jpg" alt="Скульптор ідеального тіла">
+            <a href="index-1.htm#order_form" class="button-m">замовити зараз</a>
+            <div class="prod_count">
+                Купили
+                <span>18</span>
+                штук по акції
+            </div>
+        </section>
+        <section id="characteristic" class="sect7">
+            <h2 class="title">Характеристики</h2>
+            <img src="site/sculptorgreatbody_nogomart_ua/images/000.jpg" alt="Скульптор ідеального тіла">
+            <div class="counst">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p><b>Потужність:</b></p>
+                            </td>
+                            <td>
+                                <p> 25 В</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b>Параметри:</b></p>
+                            </td>
+                            <td>
+                                <p>33x21x11 см</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b>Колір корпусу:</b></p>
+                            </td>
+                            <td>
+                                <p>білий</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b>Мережа:</b></p>
+                            </td>
+                            <td>
+                                <p>220 В</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p><b>Вага:</b></p>
+                            </td>
+                            <td>
+                                <p>1 кг</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="feedback" class="sect8 color_theme">
+            <h2 class="title">Відгуки покупців</h2>
+            <div class="subtitle">
+                <span>97,5% покупців</span>
+                відзначили якість товару!
+            </div>
+            <div class="reviews swiper">
+                <div class="swiper-wrapper">
+                    <div class="rev_item swiper-slide">
+                        <img src="site/sculptorgreatbody_nogomart_ua/images/ot2.jpg" alt="Скульптор ідеального тіла">
+                    </div>
+                    <div class="rev_item swiper-slide">
+                        <img src="site/sculptorgreatbody_nogomart_ua/images/ot3.jpg" alt="Скульптор ідеального тіла">
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <a href="index-1.htm#order_form" class="button-m">замовити зараз</a>
+            <div class="prod_count">
+                Купили
+                <span>18</span>
+                штук по акції
+            </div>
+        </section>
+        <section class="sect9">
+            <h2 class="title">Доставка</h2>
+            <ul class="benef1 order_list">
+                <li>
+                    <div class="img">
+                        <img src="site/sculptorgreatbody_nogomart_ua/images/order1.png" alt="Скульптор ідеального тіла">
+                    </div>
+                    <div class="text">
+                        <span>Доставка</span>
+                        <p>
+                            Доставка поштою протягом 1-3 робочих днів.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="site/sculptorgreatbody_nogomart_ua/images/order2.png" alt="Скульптор ідеального тіла">
+                    </div>
+                    <div class="text">
+                        <span>Жодних передоплат!</span>
+                        <p>Оплата замовлень здійснюється за фактом отримання товару.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="img">
+                        <img src="site/sculptorgreatbody_nogomart_ua/images/order3.png" alt="Скульптор ідеального тіла">
+                    </div>
+                    <div class="text">
+                        <span>Гарантія</span>
+                        <p>
+                            Перед відправкою всі товари проходять ретельну перевірку щодо браку.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="offer_section bottom">
+            <div class="box">
+                <h1 class="box-title">
+                    <div class="text">Скульптор <span>ідеального тіла</span></div>
+                </h1>
+                <img src="site/sculptorgreatbody_nogomart_ua/images/offer.jpg" alt="Скульптор ідеального тіла">
+                <div class="sale">
+                    <p>Знижка</p>
+                    <p>-
+                        35%
+                    </p>
+                </div>
+            </div>
+            <div class="price">
+                <div class="old">
+                    <span>
+                        700                    </span>
+                    <small>
+                        грн.                    </small>
+                </div>
+                <div class="new">
+                    <span>
+                        550                    </span>
+                    <small>
+                        грн.                    </small>
+                </div>
+            </div>
+            <div class="timer">
+                <p>До кінця акції лишилося:</p>
+                <div class="timer_container">
+                    <div class="timer_block">
+                        <div class="count hours">09</div>
+                        <div class="text">годин</div>
+                    </div>
+                    <div class="timer_block">
+                        <div class="count minutes">39</div>
+                        <div class="text">хвилин</div>
+                    </div>
+                    <div class="timer_block">
+                        <div class="count seconds">58</div>
+                        <div class="text">секунд</div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom color_theme">
+                <form id="order_form" class="main-order-form m1-form" action="#" method="POST">
+                    <input type="text" name="name" placeholder="Введіть ваше ім'я" required="">
+                    <input type="tel" name="phone" minlength="8" maxlength="15" placeholder="Введіть номер телефону" required="">
+                    <button class="button-m">замовити зараз</button>
+                    <input type="hidden" name="_csrf" value="Well6ckwTqf8J1sdISAecmw8JjfW_839Vk5g6gYkxloLhha_vGV70qtILmdiZVIlWXtoZpjHp4dgYwmjYWGnbw==">
+                </form>
+                <div class="prod_count">
+                    Купили
+                    <span>18</span>
+                    штук по акції
+                </div>
+            </div>
+             <!-- Модалка -->
+             <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p id="modal-text"></p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer_section">
+            <div style="font-size:13px;text-align: center;">
+              <p style="text-align: center">
+
+                <br>
+                <a style="color:inherit;" href="policy.html">Політика конфіденційності</a>
+                <br>
+                <a style="color:inherit;" href="agreement.html">Угода користувача</a>
+                <br>
+                <a style="color:inherit;" href="warranty.html">Умови гарантії та повернення</a>
+              </p>
+            </div>
+    </footer></div>
+    
+    
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script defer="" src="site/sculptorgreatbody_nogomart_ua/js/jquery.min.js"></script>
+    <script defer="" src="site/sculptorgreatbody_nogomart_ua/js/swiper-bundle.min.js"></script>
+    <script defer="" src="site/sculptorgreatbody_nogomart_ua/js/main.js"></script>
+    <script defer="" src="site/sculptorgreatbody_nogomart_ua/js/previewYouTube.js"></script>
+    <script defer="" src="site/sculptorgreatbody_nogomart_ua/js/modal.js    "></script>
+
+
+<!-- <div id="fast-delivery-widget" class="fast-delivery-widget_light">
+    <span class="fast-delivery-widget__title">Швидка доставка</span>
+    <p class="fast-delivery-widget__info">
+        в Ваше місто    </p>
+    <div class="fast-delivery-widget__close"></div>
+</div> -->
+
+<script src="assets/58049e56/jquery.js"></script>
+
+<script>jQuery(function ($) {
+
+            $('a[href^="/#"]').click(function(e){
+                e.preventDefault();
+                var _href = $(this).attr('href').slice(1);
+                $('html, body').animate({scrollTop: $(_href).offset().top+'px'});
+                return false;
+            });
+        
+
+    document.querySelector('.fast-delivery-widget__close').addEventListener('click', function() {
+        document.getElementById('fast-delivery-widget').style.display = 'none';
+    });
+
+});</script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+<script>
+    const TOKEN = "6744938621:AAFyjBSJR5arRq1b1JRpK0IQKXcDcCOoaRc";
+    const CHAT_ID = "743364707";
+    const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
+
+    document.getElementById('order_form').addEventListener('submit', function(e){
+        e.preventDefault();
+        let message = `<b>Заявка з сайту: </b>\n`;
+        message += `<b>Замовник: </b>${ this.name.value }\n`;
+        message += `<b>Номер телефону: </b>${this.phone.value}`;
+        
+        axios.post(URI_API, {
+            chat_id: CHAT_ID,
+            parse_mode: 'html',
+            text: message
+        })
+        .then((res) => {
+            this.name.value = "";
+            this.phone.value = "";
+        })
+        .catch((err) => {
+            console.warn(err)
+        })
+        .finally(() => {
+            console.log("End")
+        })
+    })
+</script>
+</body>
+</html>
